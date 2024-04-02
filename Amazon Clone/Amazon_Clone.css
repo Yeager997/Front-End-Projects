@@ -1,0 +1,265 @@
+*{
+    margin : 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.search-bar {
+    height: 60px;
+    background-color: hsl(180, 6%, 6%);
+    display: flex;
+    color: white;
+    justify-content:space-evenly ;
+}
+.nav-logo{
+    display: flex;
+    height: 60px;
+    align-items: center;
+    width: 113px;
+    
+
+}
+.logo img{
+    display: flex;
+    height: 50px;
+    width: 113px;
+    background-size: cover;
+    
+}
+.address{
+    height: 90;
+    width: 100px;
+    display: flex;
+}
+.address-line{
+    width: 90px;
+    height: 60px;
+    color: white;
+    display: flex;
+    align-items: center;
+    
+
+}
+.add-logo{
+    display: flex;
+    padding-right: 0.5rem;
+    padding-top: 0.85rem;
+    background-size: cover;
+}
+.input-bar{
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    
+}
+
+
+.input-bar select{
+    background-color: #f3f3f3;
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+    border: 0;
+    width: 3rem;
+}
+.search-icon {
+    background-color: #febd68;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #0f1111;
+    width: 45px;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    
+}
+.input-bar input{
+    border: 0px;
+    width: 550px;
+}
+.product-bar{
+    align-items: center;
+    padding-top: 0.5rem;
+    padding-left: 0.5rem; ;
+
+}
+.search-icon i{
+    align-items: center;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+}
+.account{
+    align-items: center;
+    justify-content: center;
+    padding-top:0.8rem ;
+    padding-left: 0.5rem;
+}
+.account-line1{
+font-size: 12px;
+text-align: left;
+}
+.account-line2{
+    font-size: 14px;
+    display: flex;
+    text-align: center;
+    font-weight: 600;
+}
+.return-line1{
+    font-size: 12px;
+}
+.return-line2{
+    font-size: 14px;
+    font-weight: 600;
+    
+}
+.return{
+    text-align: left;
+    padding-top: 0.8rem;
+    padding-left: 0.5rem;
+}
+.cart{
+    padding-top: 1.2rem;
+    display: flex;
+}
+.cart-logo{
+    background-size: cover;
+    height: rem;
+}
+.cart-text{
+    padding-top: 0.2rem;
+}
+.quick-access{
+    background-color: #222f3d;
+    height: 40px;
+    color:white ;
+    display: flex;
+    align-items: center;
+}
+.catg1{
+    padding-left: 1%;
+}
+.catg2{
+    padding-left: 0.8rem;
+}.catg3{
+    padding-left: 0.8rem;
+}.catg4{
+    padding-left: 0.8rem;
+}.catg5{
+    padding-left: 0.8rem;
+}.catg6{
+    padding-left: 0.8rem;
+}
+.hero_image{
+    width:100%;
+    height: 300px;
+    object-fit: cover;
+    object-position: 0% -0%;
+   
+}
+.deals{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 0.5rem;
+}
+.box{
+background: white;
+width: 300px;
+height: 420px;
+border-radius: 1%;
+text-align: center;
+font-size: 20px;
+padding-top: 0.5rem;
+}
+.box img{
+    width: 90%;
+    height: 90%;
+    padding-top: 0.4rem;
+    object-fit: cover;
+    
+}
+.new-deal{
+    background-color: white;
+    border-radius: 2.5px;
+    font-size: 18px;
+    width: 98%;
+    margin-top: 0.75rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    padding-top: 0.2rem;
+    
+
+}
+.new-deal h2{
+    padding-left: 1rem;
+    padding-top: 0.4rem;
+    
+}
+.new-deal a{
+    color:#007185 ;
+    font-size: 14px;
+    padding-left: 0.9rem;
+    padding-top: 1.0rem;
+    
+    
+}
+.objs{
+    display: flex;
+    width: 98%;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-evenly;
+    display: flex;
+    padding-top: 0.8rem;
+    height: 320px;
+    border-radius: 2.5px;
+    
+}
+.o{
+    background-color: #e8e4e45c;
+    width: 240px;
+    height: 300px;
+    
+    
+}
+.o img{
+    width: 240px;
+    height: 200px;
+    
+
+}
+.txt{
+    background-color: #cc0c39;
+    color: white;
+    width: 60px;
+    height: 25px;
+    border-radius: 2px;
+    text-align:center;
+    font-size: 14px;
+    font-weight: 530;
+    align-items: center;
+    vertical-align: middle;
+    line-height:25px;
+   
+}
+.a{
+    padding-left: 0.8rem;
+    padding-top: 0.8rem;
+    
+}
+.b{
+    padding-top: 0.25rem;
+    font-weight: bold ;
+    
+}
+.c{
+    padding-top: 0.25rem;
+    font-size:15px;
+}
+.end{
+    background-color: #232f3e;
+    margin-top: 0.8rem;
+    color: #DDDDDD;
+    height: 100px;
+    padding-top: 50px;
+    font-size: 30px;
+}
